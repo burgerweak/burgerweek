@@ -1,0 +1,55 @@
+/**
+ * @license
+ * Copyright 2019 Google LLC. All Rights Reserved.
+ * SPDX-License-Identifier: Apache-2.0
+ */
+
+#map {
+    height: 90vh;
+    width: 100%;
+}
+
+div.burger_info {
+  height: 200px;
+  
+}
+
+div.burger_info h3 {
+  margin-top: 0px;
+  margin-bottom: 5px;
+}
+
+.burger_info img {
+  float: left;
+  padding: 0 10px 10px 0;
+}
+
+.burger_info div.description {
+  float: left;
+  width: 50%;
+}
+
+div.burger_info p {
+  margin-top: 5px;
+  margin-bottom: 5px;
+}
+
+div.burger_info .column {
+  float: left;
+  width: 50%;
+}
+
+div.burger_info .column p {
+  margin-top: 0px;
+}
+
+div.burger_info .column.right {
+  text-align: right;
+}
+
+div.burger_info .row:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+  
